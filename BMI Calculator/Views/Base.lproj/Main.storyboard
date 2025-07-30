@@ -124,8 +124,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="HeightLabel" destination="lHE-PA-lVf" id="0qY-Pr-WXe"/>
-                        <outlet property="WeightLabel" destination="LTF-aL-8qu" id="4v5-3c-EDv"/>
+                        <outlet property="HeightLabel" destination="Xcz-1j-2c9" id="ZRZ-fR-3o3"/>
+                        <outlet property="WeightLabel" destination="LTF-aL-8qu" id="Pwp-mo-80t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
