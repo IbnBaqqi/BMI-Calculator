@@ -56,7 +56,7 @@
                                         <color key="minimumTrackTintColor" red="0.4549019608" green="0.44705882349999998" blue="0.82352941180000006" alpha="0.51797945209999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <color key="thumbTintColor" red="0.4549019608" green="0.44705882349999998" blue="0.82352941180000006" alpha="0.49510380990000002" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <action selector="HeightSliderChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="Srw-nj-e07"/>
+                                            <action selector="HeightSliderChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="bln-bf-4wV"/>
                                         </connections>
                                     </slider>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="xw8-bR-YUu">
@@ -87,7 +87,7 @@
                                         <color key="minimumTrackTintColor" red="0.4549019608" green="0.44705882349999998" blue="0.82352941180000006" alpha="0.49890303940000003" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <color key="thumbTintColor" red="0.4549019608" green="0.44705882349999998" blue="0.82352941180000006" alpha="0.50481592470000003" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <action selector="WeightSliderChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="rjK-WW-Lmi"/>
+                                            <action selector="WeightSliderChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="yWf-sK-06M"/>
                                         </connections>
                                     </slider>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0F0-S2-2nc">
@@ -106,6 +106,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kHp-am-HV5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -124,8 +127,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="HeightLabel" destination="Xcz-1j-2c9" id="ZRZ-fR-3o3"/>
-                        <outlet property="WeightLabel" destination="LTF-aL-8qu" id="Pwp-mo-80t"/>
+                        <outlet property="HeightLabel" destination="Xcz-1j-2c9" id="vBf-pr-wIz"/>
+                        <outlet property="HeightSlider" destination="Pky-qY-oVp" id="90H-j7-IBx"/>
+                        <outlet property="WeightLabel" destination="LTF-aL-8qu" id="eC7-nX-Xna"/>
+                        <outlet property="WeightSlider" destination="s2X-C5-Zcz" id="Vvb-Ab-zhF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
